@@ -1,0 +1,4 @@
+jpa\datos\PersonaDaoImpl.class
+jpa\datos\PersonaDao.class
+jpa\service\PersonaServiceImpl.class
+jpa\test\Persona.class

@@ -1,0 +1,161 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 14 jun. 2021, 13:58:49
+    Author     : PC
+*/
+
+:root{
+    --primario: #77C3B7;
+    --primario-dark: #418D82;
+    --secundario: #656DC8;
+}
+
+*{
+
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+.container{
+    /*    background-image: url(wave-haikei.svg);*/
+    background: linear-gradient(#ffffff 50%, var(--primario) 50%);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100vw;
+}
+.div-glass{
+    display: flex;
+    align-items: center;
+    /*background-color: rgba(255,255,255, 0.25);*/
+    background-color: white;
+    box-shadow: 0 8px 32px 0 rgba(107, 107, 107, 0.842);
+    /*backdrop-filter: blur(4px);*/
+    border-radius: 20px;
+    width: 60vw;
+    height: 70vh;
+}
+
+.img-form{
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
+    background-color: var(--primario);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    height: 100%;
+}
+.img-svg{
+    width: 50%;
+    margin-right: 15%;
+}
+
+.form-container{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    width: 50%;
+    height: 100%;
+    margin-right: 15px;
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+    background-color: white;
+}
+
+.form-body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    height: 90%;
+}
+
+.imgRed{
+    width: 100px;
+    height: 100px;
+    border-radius: 150px;
+}
+
+.form-group{
+    margin-top: 30%;
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+}
+
+.form-group input{
+    margin-bottom: 15px;
+    width: 250px;
+    height: 40px;
+    border: none;
+    border-bottom: 2px solid var(--primario);
+    outline: 0px;
+}
+#inpCorreo{
+    margin-top: 5%;
+}
+
+#inpCorreo:focus{
+    border-bottom: 2px solid var(--primario-dark);
+}
+
+#passwordInp:focus{
+    border-bottom: 2px solid var(--primario-dark);
+}
+
+.form-buttons{
+    margin-top: 35px;
+}
+
+.btn{
+    text-decoration: none;
+    padding: 10px;
+    font-size: 20px;
+    color: white;
+    background-color: var(--primario);
+    border-radius: 6px;
+    border: none;   
+}
+
+.btn-secundario{
+    background-color: white;
+    margin-left: 16px;
+    color: var(--primario); 
+    border: 1px solid var(--primario) !important ; 
+    border-radius: 6px;
+}
+
+.btn:hover{
+    background-color: var(--primario-dark);
+
+}
+
+.btn-secundario:hover{
+    background-color: var(--primario);
+    color: white;
+}
+
+.lbl{
+    margin-top: 8px;
+}
+
+@media screen and (max-width: 1045px){
+    .div-glass .img-form{
+        display: none;
+    }
+    
+    .div-glass .form-container{
+        width: 100%
+    }
+}

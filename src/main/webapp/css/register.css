@@ -1,0 +1,55 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 15 jun. 2021, 18:05:59
+    Author     : PC
+*/
+:root{
+    --primario: #77C3B7;
+    --primario-dark: #418D82;
+    --secundario: #656DC8;
+}
+
+.form-register {
+    background-color: red;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 800px;
+}
+
+.container-priv{
+    /*    background-image: url(wave-haikei.svg);*/
+    background: linear-gradient(var(--primario) 50% , #ffffff 50%);
+    /*background-color: red;*/
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100vw;
+}
+.div-glass{
+    display: flex;
+    align-items: center;
+    /*background-color: rgba(255,255,255, 0.25);*/
+    background-color: white;
+    box-shadow: 0 8px 32px 0 rgba(107, 107, 107, 0.842);
+    /*backdrop-filter: blur(4px);*/
+    border-radius: 20px;
+    width: 60vw;
+    height: 70vh;
+}
+
+.forms{
+    /*background-color: red;*/
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 500px;
+}

@@ -1,0 +1,37 @@
+<?xml version='1.0' encoding='UTF-8' ?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:h="http://xmlns.jcp.org/jsf/html">
+    <h:head>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"></meta>
+        <link rel="stylesheet" href="css/styles.css" type="text/css"></link>
+        <title>MasterTec</title>
+    </h:head>
+    <h:body>
+        <div class="container" >
+            <div class="div-glass" >
+                <div class="img-form" >
+                    <img src="resources/mouse.svg" class="img-svg" alt="mouse" />
+                </div>
+                
+                <h:form class="form-container" >
+                    <div class="form-body" >
+                        <h2>¡Hola, Bienvenido de nuevo!</h2>
+                        <div class="form-group" >
+                            <h2>Ingresa a tu cuenta</h2>
+                            <label class="lbl" for="inpCorreo" >Correo</label>
+                            <h:inputText id="inpCorreo" ></h:inputText>
+                            <label class="lbl" for="passwordInp" >Contraseña</label>
+                            <h:inputSecret id="passwordInp"></h:inputSecret>
+                        </div>
+                        <div class="form-buttons" >
+                            <h:commandButton type="submit" class="btn" value="Acceder" ></h:commandButton>
+                            <a class="btn btn-secundario" href="register.xhtml">Registrarse</a>
+                        </div>
+                    </div>
+                </h:form>
+            </div>
+        </div>
+    </h:body>
+</html>
+
